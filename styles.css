@@ -429,6 +429,28 @@ main {
   display: block;
 }
 
+.project-preview-empty {
+  display: grid;
+  place-items: center;
+  background: var(--surface-soft);
+}
+
+.project-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 20px;
+  border: 1px dashed var(--hairline);
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  background: var(--canvas);
+}
+
+.project-icon svg {
+  width: 46px;
+  height: 46px;
+}
+
 .project-copy {
   padding: 26px;
   background: var(--surface-soft);
